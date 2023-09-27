@@ -1,7 +1,7 @@
 
 import streamlit as st 
 
-
+st.set_page_config(page_title="Currency Change", page_icon=":moneybag:", layout="centered", initial_sidebar_state="expanded")
 
 def dpMakeChange(coinValueList,change,mincoins,coinsUsed):
     for counts in range(change+1):
