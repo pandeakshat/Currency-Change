@@ -1,13 +1,13 @@
 [tool.poetry]
 name = "currency-change"
 version = "0.1.0"
-description = "currency change application to caculate change based on payment and price"
-authors = ["Akshat Pande <akshat.pande@outlook.com>"]
+description = ""
+authors = ["pandeakshat <akshat.pande@outlook.com>"]
 readme = "README.md"
 
 [tool.poetry.dependencies]
-python = "^3.11"
-streamlit = "^1.27.0"
+python = "^3.10"
+streamlit = "^1.27.2"
 
 
 [build-system]
